@@ -22,7 +22,7 @@ public class FindMaxMinValueInArray {
 			if (array[i] < min)
 				min = array[i];
 		}
-		System.out.println(String.format("findMaxValue() result : min={%s} max={%s}", min, max));
-		// console output : findMaxValue() result : 8
+		System.out.println(String.format("findMaxValue() result : min=%s , max=%s", min, max));
+		// console output : findMaxValue() result : min=1 , max=8
 	}
 }
