@@ -2,7 +2,7 @@ package com.morex.examples.ads.arrays;
 
 import java.util.Arrays;
 
-public class ArrayPractice {
+public class ReverseArray {
 	public static void main(String[] args) {
 		reverseArray(new Integer[]{5, 1, 8, 2, 4});
 	}
