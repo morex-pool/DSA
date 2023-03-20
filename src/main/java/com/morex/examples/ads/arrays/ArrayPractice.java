@@ -12,7 +12,7 @@ public class ArrayPractice {
 			System.out.println("array is empty!");
 			return;
 		}
-		System.out.println("the array: " + Arrays.toString(array));
+		System.out.println("the array: " + Arrays.toString(array)); // console output : the array: [5, 1, 8, 2, 4]
 		int start = 0, end = array.length - 1;
 		while (start < end) {
 			int temp = array[start];
@@ -21,6 +21,6 @@ public class ArrayPractice {
 			start++;
 			end--;
 		}
-		System.out.println("reverseArray() result : " + Arrays.toString(array)); // output: [4, 2, 8, 1, 5]
+		System.out.println("reverseArray() result : " + Arrays.toString(array)); // console output : reverseArray() result : [4, 2, 8, 1, 5]
 	}
 }
